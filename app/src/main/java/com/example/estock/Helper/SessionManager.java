@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.example.estok.MainActivity;
+import com.example.estock.MainActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SessionManager {
