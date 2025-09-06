@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.estok.Model.OrderItem;
-import com.example.estok.R;
-import com.example.estok.ViewOrder;
+import com.example.estock.Model.OrderItem;
+import com.example.estock.R;
+import com.example.estock.ViewOrder;
 
 import java.util.List;
 

@@ -13,6 +13,36 @@
         android:theme="@style/Theme.EStock"
         tools:targetApi="31">
         <activity
+            android:name=".ViewOrder"
+            android:exported="false" />
+        <activity
+            android:name=".View"
+            android:exported="false" />
+        <activity
+            android:name=".StockAdd"
+            android:exported="false" />
+        <activity
+            android:name=".StockCheck"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Option"
+            android:exported="false" />
+        <activity
+            android:name=".ManageItem"
+            android:exported="false" />
+        <activity
+            android:name=".Items"
+            android:exported="false" />
+        <activity
             android:name=".AddUnit"
             android:exported="false" />
         <activity
@@ -22,14 +52,8 @@
             android:name=".AdminDashbord"
             android:exported="false" />
         <activity
-            android:name=".AdminDashboard"
-            android:exported="false" />
-        <activity
-            android:name=".Model.AdminDashboard"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -10,9 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.estok.Model.StockItem;
-import com.example.estok.R;
-import com.example.estok.StockAdd;
+import com.example.estock.Model.StockItem;
+import com.example.estock.R;
+import com.example.estock.StockAdd;
 
 import java.util.List;
 

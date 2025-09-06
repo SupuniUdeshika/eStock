@@ -1,7 +1,5 @@
 package com.example.estock.Adapter;
 
-import static android.os.Build.VERSION_CODES.R;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -12,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.estok.Items;
-import com.example.estok.R;
+import com.example.estock.Items;
+import com.example.estock.R;
 import com.google.firebase.firestore.DocumentSnapshot;
 
 import java.util.List;
@@ -31,7 +29,7 @@ public class OptionAdapter extends RecyclerView.Adapter<OptionAdapter.OptionView
     @NonNull
     @Override
     public OptionViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_view, parent, false);
         return new OptionViewHolder(view);
     }
 
